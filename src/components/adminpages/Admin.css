@@ -1,0 +1,184 @@
+.admin-home {
+    display: flex;
+}
+
+.homeContainer {
+    flex: 6;
+}
+
+.widgets, .charts {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+
+.charts {
+    padding: 5px 20px;
+}
+
+.listContainer {
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    padding: 20px;
+    margin: 20px;
+}
+
+.listTitle {
+    font-weight: 500;
+    color: gray;
+    margin-bottom: 15px;
+}
+
+.formInput {
+    display: inline-block;
+    
+}
+
+.formInput-container{
+    display: block;
+}
+
+.widget {
+    display: flex;
+    min-width: 300px;
+    min-height: 180px;
+    flex: 1;
+    padding: 10px;
+    justify-content: space-evenly;
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    border-radius: 10px;
+    height: 150px;
+}
+
+.widget-container {
+    display: flex;
+    gap: 10px;
+    margin: 20px auto;
+}
+
+.left, .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 14px;
+    color: rgb(160, 160, 160);
+}
+
+.two {
+    font-size: 28px;
+    font-weight: 300;
+    color: black;
+}
+
+.link {
+    width: max-content;
+    font-size: 12px;
+    border-bottom: 1px solid gray;
+}
+
+.percentage {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.positive {
+    color: green;
+}
+
+.negative {
+    color: red;
+}
+
+.icon  {
+    font-size: 30px;
+    padding: 5px;
+    border-radius: 5px;
+    align-self: flex-end;
+}
+
+.featured {
+    flex: 2px;
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    padding: 10px;
+}
+
+.featured-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: gray;
+}
+
+.title {
+    font-size: 16px;
+    font-weight: 500;   
+}
+
+.feautred-bottom {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.featuredChart {
+    width: 100px;
+    height: 100px;
+}
+
+.featured-title {
+    font-weight: 500;
+    color: gray;
+}
+
+.featured-amount {
+    font-size: 30px;
+}
+
+.featured-desc {
+    font-weight: 300;
+    font-size: 12px;
+    color: gray;
+    text-align: center;
+}
+
+.summary {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .item {
+        text-align: center;
+    }
+
+    .itemTitle {
+        font-size: 14px;
+        color: gray;
+    }
+
+    .itemResult {
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+        font-size: 14px;
+
+    &.positive {
+        color: green;
+    }
+
+    &.negative {
+        color: red;
+    }
+    }
+    
+}
